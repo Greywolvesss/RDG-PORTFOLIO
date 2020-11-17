@@ -1,0 +1,117 @@
+
+
+.about-jumbo { 
+    background-image: url("../img/shattered-island.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+
+    h1 { 
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 2.3rem !important;
+        color: #fff;
+    }
+} 
+
+
+
+    // ABOUT INFO 
+
+    #about { 
+
+        margin: 30px 0;
+        padding: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .aboutme h2 { 
+        font-size: 3.1rem;
+        letter-spacing: 2px;
+        margin: 15px 0;
+        font-family: 'Playfair Display', serif !important; 
+      }
+    
+      .aboutme h5 { 
+        font-family: 'Josefin Sans', serif;
+        font-size: 1.2rem;
+        margin: 15px 0;
+      }
+
+    
+      .aboutme p { 
+        line-height: 30px;
+      }
+    
+    
+      .aboutimg img { 
+        width: 100%;
+        min-height: 550px;
+      }
+
+            @media only screen and (max-width: 1010px) { 
+                
+                .about-jumbo h1 { 
+                  font-size: 2.1rem !important;
+                }
+
+                .aboutimg img { 
+                    min-height: 450px;
+                  }
+
+                  .aboutme h2 { 
+                    font-size: 2.8rem !important;
+                  }
+
+            }
+    
+    
+            @media only screen and (max-width: 430px) { 
+                
+              .about-jumbo h1 { 
+                font-size: 1.8rem !important;
+              }
+    
+              .aboutme { 
+                margin: 5px 0;
+              }
+    
+              .aboutme h2 { 
+                font-size: 2.2rem !important;
+              }
+            
+              
+              .aboutme .name { 
+                font-size: 1.1rem;
+              }
+            
+            }
+
+
+// ARTICLE SECTION  
+
+#articles { 
+  margin: 40px 0;
+  width: 100%;
+  overflow-x: hidden;
+
+        h2 { 
+          font-size: 2rem;
+          letter-spacing: 2px;
+          margin: 15px 0;
+          font-family: 'Playfair Display', serif !important; 
+        }
+  
+        .article-con { 
+
+          a { 
+            margin: 5px 0;
+          }
+        }
+}

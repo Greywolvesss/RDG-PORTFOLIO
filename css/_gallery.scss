@@ -1,0 +1,95 @@
+
+.gallery-jumbo { 
+    background-image: url("../img/shattered-island.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+
+    h1 { 
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 2.3rem !important;
+        color: #fff;
+    }
+
+    p { 
+        text-align: center;
+        color: #fff;
+    }
+}   
+
+
+            @media only screen and (max-width: 730px) { 
+                                                    
+                                        
+                .gallery-jumbo h1 { 
+                font-size: 2.1rem !important;
+                }
+
+
+            }
+
+
+            @media only screen and (max-width: 430px) { 
+                            
+                
+                .gallery-jumbo h1 { 
+                font-size: 1.9rem !important;
+                }
+                
+
+            }
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+}
+
+
+.tz-gallery {
+    padding: 20px;
+
+            .trophy { 
+
+                    text-align: center;
+                    font-size: 2.2rem;
+                    letter-spacing: 2px;
+                    margin: 30px 0;
+                    color: black;
+                    font-family: 'Playfair Display', serif !important; 
+            }
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+        @media(max-width: 768px) {
+            body {
+                padding: 0;
+            }
+
+            .container.gallery-container {
+                border-radius: 0;
+            }
+        }

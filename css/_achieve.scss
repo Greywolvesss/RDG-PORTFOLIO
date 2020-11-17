@@ -1,0 +1,113 @@
+
+
+
+.achie-jumbo { 
+    background-image: url("../img/shattered-island.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+
+    h1 { 
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 2.3rem !important;
+        color: #fff;
+    }
+
+    p { 
+        text-align: center;
+        color: #fff;
+    }
+}   
+
+            @media only screen and (max-width: 730px) { 
+                                        
+                            
+                .achie-jumbo h1 { 
+                font-size: 2.1rem !important;
+                }
+
+                .achie-jumbo p { 
+                    font-size: 14px;
+                }
+
+                
+
+            }
+
+            
+            @media only screen and (max-width: 430px) { 
+                            
+                
+                .achie-jumbo h1 { 
+                font-size: 1.9rem !important;
+                }
+                
+            
+            }
+
+
+.table-box
+{
+    margin: 50px auto;
+
+    p { 
+    text-align: center;
+    }
+}
+
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 16px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+    background: #5EA2C4;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}
+.last-cell{
+    border-right: none;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+
+
+          @media only screen and (max-width: 572px) {
+
+            .table-row {
+              font-size: 11px;
+            }
+
+            #achievements h1 { 
+              font-size: 23px;
+            }
+
+
+          }
