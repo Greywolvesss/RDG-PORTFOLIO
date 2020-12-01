@@ -239,9 +239,12 @@ a {
   text-align: center;
   font-size: 2.2rem;
   letter-spacing: 2px;
-  margin: 30px 0;
   color: black;
   font-family: 'Playfair Display', serif !important;
+}
+
+.tz-gallery p {
+  margin-bottom: 30px;
 }
 
 .tz-gallery .lightbox img {
